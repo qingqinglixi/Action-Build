@@ -1087,6 +1087,8 @@ jobs:
             set_config "CONFIG_NETFILTER_XT_TARGET_REJECT=y"
             set_config "CONFIG_NETFILTER_XT_TARGET_LOG=y"
             set_config "CONFIG_NETFILTER_XT_MATCH_RECENT=y"
+            set_config "CONFIG_CFS_BANDWIDTH=y"
+            set_config "CONFIG_CGROUP_PIDS=y"
           fi
 
           # IPSET & IPv6_NAT & TTL配置*
